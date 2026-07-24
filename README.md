@@ -1,4 +1,4 @@
-## composed flask-app with nginx as a reverse proxy
+## composed flask-app with nginx as a reverse proxy and CI using github-actions
 
 ## build 
 ```bash
