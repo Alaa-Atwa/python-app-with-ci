@@ -1,4 +1,2 @@
 flask 
 waitress
-pytest 
-flake8 .
