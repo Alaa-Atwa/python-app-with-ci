@@ -23,12 +23,10 @@ jobs:
       - name: Install dependencies 
         run: pip install -r requirements.txt 
 
-      - name: run lint 
-        run: flake8 .
-
       - name: run test
         run: pytest
+
+      - name: run lint 
+        run: flake8 .
       
-      - name: test completed
-        run: echo " tests done"
 
